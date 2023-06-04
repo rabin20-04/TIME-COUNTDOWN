@@ -6,6 +6,22 @@
 
     <title>Date Countdown</title>
    
+    
+</head>
+<body>
+    <video id="video-background" autoplay muted loop>
+        <source src="fish_-_85674 (540p).mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+
+    <h1>Date Countdown</h1>
+
+    <div class="countdown" id="countdown"></div>
+    <div class="countdown-small" id="countdown-small"></div>
+
+    <button id="toggleHamburger">&#8942;</button>
+    <div id="hamburgerContainer"></div>
+</body>
     <script>
         function calculateCountdown(targetDate) {
             var countdownElement = document.getElementById("countdown");
@@ -75,19 +91,4 @@
             }
         });
     </script>
-</head>
-<body>
-    <video id="video-background" autoplay muted loop>
-        <source src="fish_-_85674 (540p).mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-
-    <h1>Date Countdown</h1>
-
-    <div class="countdown" id="countdown"></div>
-    <div class="countdown-small" id="countdown-small"></div>
-
-    <button id="toggleHamburger">&#8942;</button>
-    <div id="hamburgerContainer"></div>
-</body>
 </html>
